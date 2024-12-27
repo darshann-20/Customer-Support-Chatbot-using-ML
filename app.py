@@ -5,7 +5,7 @@ from googletrans import Translator
 app = Flask(__name__)
 
 # Initialize OpenAI API and Translator
-openai.api_key = 'sk-yQR4xxeQhBdHQ8mccFF1Yk_sz4OjSUSCMw8fehnvQBT3BlbkFJ5JIbo7p06i-l5yqW-m7hT96eXEMLa6jwr1p6vdDL8A'  # Replace with your actual OpenAI API key
+openai.api_key = '# Replace with your actual OpenAI API key'
 translator = Translator()
 
 # List of supported languages for targeted output
